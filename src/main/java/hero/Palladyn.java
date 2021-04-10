@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Palladyn implements ClassStatistics {
+public class Palladyn extends ClassStatistics {
 
     private int hp = 750;
     private final int defense = 4;

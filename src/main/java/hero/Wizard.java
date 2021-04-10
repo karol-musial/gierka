@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Wizard implements ClassStatistics {
+public class Wizard extends ClassStatistics {
 
     private int hp = 300;
     private final int defense = 3;

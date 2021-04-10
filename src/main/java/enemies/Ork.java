@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Ork implements ClassStatistics {
+public class Ork extends ClassStatistics {
 
     private int hp = 300;
     private final int defense = 2;

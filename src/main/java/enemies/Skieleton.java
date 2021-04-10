@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Skieleton implements ClassStatistics {
+public class Skieleton extends ClassStatistics {
 
     private int hp = 300;
     private final int defense = 1;
